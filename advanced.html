@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> HTML </title>
+  </head>
+  <body>
+      <style>
+
+          a{
+             text-align: center;
+          }
+
+          a:hover {
+              background-color:cyan;
+          }
+
+          #nav5 {
+              font-weight: bold;
+              font-family: Arial, Helvetica, sans-serif;
+          }
+
+          #nav4 {
+            font-weight: bold;
+              font-family: Arial, Helvetica, sans-serif;
+          }
+
+          h1 {
+              color: red;
+              font-size: 25px;
+                margin-left: 20px;
+          }
+
+             #submit {
+                margin-left: 675px;
+                margin-top: 5px;
+                background-color: blue;
+                color: white;
+            }
+
+            .instructionField {
+                display: inline-block;
+                font-size: 15px;
+                width: 250px;
+            }
+
+            #line1 {
+                width: 500px;
+                height: 30px;
+                position:relative;
+                left: 450;
+                top: 140;
+            }
+
+            #line2 {
+                width: 500px;
+                height: 30px;
+                position:relative;
+                left: 104;
+                top: 190;
+            }
+
+            #line3 {
+                width: 500px;
+                height: 30px;
+                position:relative;
+                left: 657;
+                top: 240;
+            }
+
+            #line4 {
+                width: 500px;
+                height: 30px;
+                position:relative;
+                left: 450;
+                top: 260;
+            }
+
+            .instructionField {
+                margin-left: 35px;
+                display: inline-block;
+                font-size: 20px;
+                color:grey;
+                width: 250px;
+            }
+            .textField2 {
+                display: inline-block;
+                width: 350px;
+            }
+
+          </style>
+
+<a id="nav5" href="googleimage.html"> Google Image Search </a>
+<br>
+<a id="nav4" href="google search.html"> Google Search </a>
+<br>
+    <h1>
+        Advanced Search
+    </h1>
+    <hr>
+    <div id="head">
+        Find pages with...
+    </div>
+    <br>
+    <form action="https://google.com/search">
+        <div class="instructionField">
+            All these words:
+        </div>
+        <div class="textField2">
+            <input id="line1" type="text" name="q">
+        </div>
+        <br>
+        <div class="instructionField">
+            This exact word or phrase:
+        </div>
+        <div class="textField2">
+            <input size="75" value="" id="line2" name="as_epq" type="text">
+        </div>
+        <br>
+        <div class="instructionField">
+            Any of these words
+        </div>
+        <div class="textField2">
+            <input size="75" value="" id="line3" name="as_oq" type="text">
+        </div>
+        <br>
+        <div class="instructionField">
+            None of these words
+        </div>
+        <div class="textField2">
+            <input size="75" value="" id="line4" name="as_eq" type="text">
+        </div>
+        <br>
+        <input type="submit" value="Advanced Search" id="submit" class="center rounded">
+    </body>
+    </html>
