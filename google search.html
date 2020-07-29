@@ -7,7 +7,7 @@
       <style>
            #Textbox {
               display: block;
-              width: 300px;
+              width: 500px;
               margin-top: 2px;
           }
 
@@ -15,7 +15,6 @@
           #submit {
               display: block;
               margin-top: 2px;
-              background-color: hotpink;
           }
 
           .center {
@@ -32,39 +31,44 @@
           }
 
           a:hover {
-              color: brown;
+              background-color: magenta;
           }
 
           #submit {
-			      background-color: royalblue;
-			      color: white;
 			      font-size: 20px;
+                  background-color: lightgrey;
            }
 
            #nav3 {
               font-weight: bold;
               font-family: Arial, Helvetica, sans-serif;
-              
+              float: right;
           }
 
           #nav2 {
             font-weight: bold;
               font-family: Arial, Helvetica, sans-serif;
-	      }     
-	       .line {
+              float: right;
+           }
+
+           .line {
              font-weight: bold;
              font-family: Arial, Helvetica, sans-serif;
              color: grey;
-	      }     
+
+           }
+           
       </style>
       <a id="nav3" href="googleimage.html"> Google Image Search </a>
       <br>
       <a id="nav2" href="advanced.html"> Advanced Search </a>
       <br>
+      <p align="center"><img src="https://iabtechlab.com/wp-content/uploads/2018/12/google-logo.png" style="margin-top: 100px; width: 268px; height: 90px;"></p>
       <form action="https://www.google.com/search">
           <input type="text" name="q" id="Textbox" class="center rounded">
+          <br>
           <input type="submit" value="Google search" id="submit" class="center rounded">
-          <input type="submit" name="btnI" value="I'm Feeling Lucky" class="center rounded">
+          <p align="center"> <input type="submit" class="input_rel_lucky" name="btnI" value="I'm Feeling Lucky"/></p>
         <hr>
           <div class="row">
             <div class="line">
